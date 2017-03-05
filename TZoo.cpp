@@ -89,6 +89,7 @@ TAnimal** Ageing(TAnimal** Animals, size_t NumAnimals, size_t &dead)
 			if (Aging == -1)
 			{
 				std::cout << "\t!!!Message///" << Animals[i]->GetName() << " has died of an old age. Sorrow!\n" << std::endl;
+				delete Animals[i];
 				Animals[i] = nullptr;
 				dead++;
 			}
