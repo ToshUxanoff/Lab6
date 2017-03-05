@@ -103,7 +103,7 @@ int _tmain(int argc, _TCHAR* argv[])
 			break;
 		}
 		std::cout << std::endl;
-		std::this_thread::sleep_for(std::chrono::seconds(3));
+		std::this_thread::sleep_for(std::chrono::seconds(1));
 	}
 	system("pause");
 	return 0;
