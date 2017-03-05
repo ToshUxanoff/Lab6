@@ -6,6 +6,6 @@ class TArtiodactyla :
 public:
 	TArtiodactyla();
 	TArtiodactyla::TArtiodactyla(const std::string& name); 
-	virtual~TArtiodactyla();
+	~TArtiodactyla();
 	virtual void Live(float Time);
 };
