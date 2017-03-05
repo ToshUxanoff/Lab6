@@ -6,6 +6,6 @@ class TProboscidea :
 public:
 	TProboscidea();
 	TProboscidea::TProboscidea(const std::string& name);
-	virtual~TProboscidea();
+	~TProboscidea();
 	virtual void Live(float Time);
 };
